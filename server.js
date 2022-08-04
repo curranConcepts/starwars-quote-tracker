@@ -11,7 +11,7 @@ app.listen(port, function () {
   console.log(`listening on ${port}`)
 })
 // Link to Database
-const connectionString = process.env.DB_STRING
+const connectionString = process.env.MONGODB_URI
 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
   .then(client => {
