@@ -7,7 +7,7 @@ require('dotenv').config()
 // Listen
 const isProduction = process.env.NODE_ENV === 'production'
 const port = isProduction ? 7500 : 3000
-app.listen(port, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log(`listening on ${port}`)
 })
 // Link to Database
