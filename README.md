@@ -13,15 +13,15 @@
 
 ### ✨ [Demo](https://starwars-quote-tracker.herokuapp.com/)
 
-  <a align="center" target="_blank" href="#">
+  <p align="center">
+  <a target="_blank" href="#">
     <img src="https://media.giphy.com/media/mx7LBkzJWfWXACpTOn/giphy.gif" width="50%"  alt="starwars quote tracker"/>
   </a>
+  </p>
 
 ## Usage
 
-```sh
-.
-```
+Navigate to https://starwars-quote-tracker.herokuapp.com/
 
 ## Author
 
